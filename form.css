@@ -1,0 +1,110 @@
+* {
+    padding: auto;
+    margin: 0px;
+    box-sizing: border-box;
+    line-height: 110%;
+    box-sizing: border-box;
+    font-family: "Archivo";
+}
+
+#home {
+    /* position: fixed;
+    top: 50px;
+    left: 50px;
+    color: black; */
+    background-color: #007bff;
+    padding: 10px;
+    text-align: right;
+}
+
+#home a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+#main-container {
+    margin: auto;
+    margin-top: 6%;
+    width: 60%;
+    box-shadow: #007bff 0px 0px 0px 2px,
+        #5ca6f6 0px 4px 6px -1px,
+        #bfdaf6 0px 1px 0px inset;
+    padding: 40px 20px;
+    border-radius: 7px;
+    margin-bottom: 100px;
+}
+
+#title {
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+#form {
+    border: 1px dashed black;
+    padding: 15px 20px;
+    padding-bottom: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+#form label {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+#form input {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    width: auto;
+}
+
+#form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    #title {
+        font-size: medium;
+    }
+
+    #form label {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #form input {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+}
+
+input:focus {
+    outline: none;
+}
+
+button[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button[type="button"]:hover,
+#form input[type="submit"] {
+    background-color: #0665cb;
+}
